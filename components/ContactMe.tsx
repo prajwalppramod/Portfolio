@@ -36,7 +36,7 @@ function ContactMe({ }: Props) {
                     </div>
                     <div className='flex items-center space-x-5 justify-center'>
                         <MapPinIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse' />
-                        <p className='text-2xl'>Pranavam , Trivandrum</p>
+                        <p className='text-2xl'>Trivandrum, India</p>
                     </div>
                     <div className='flex items-center space-x-5 justify-center'>
                         <EnvelopeIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse' />

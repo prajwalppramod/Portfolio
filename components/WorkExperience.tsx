@@ -31,16 +31,17 @@ const experienceData = [
   },
   {
     id: 3,
-    image: 'data:image/png;base64,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',
-    position: 'Digital Skill Facilitator',
-    companyname: 'TinkerHub',
+    image: '/redpositive.png',
+    position: 'Graphic and UI/UX Intern',
+    companyname: 'Red Positive',
     skills: [],
-    startdate: 'April 2022',
-    enddate: 'September 2022',
+    startdate: 'February 2023',
+    enddate: 'May 2023',
     summaryPoints: [
-      'Offered learning support and guidance to students to provide opportunities for improvement.',
-      'Developed courses and resources for enhanced additional learning.',
-      'Curated and delivered a course on Google Slides.',
+      'Created design strategies to promote the brand.',
+      'Created posters for social media.',
+      'Created customised design template for ID Cards and other materials.',
+      'Developed User Interface for mobile view of website'
     ],
   },
   {
@@ -60,17 +61,16 @@ const experienceData = [
   },
   {
     id: 5,
-    image: '/redpositive.png',
-    position: 'Graphic and UI/UX Designer',
-    companyname: 'Red Positive',
+    image: 'data:image/png;base64,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',
+    position: 'Digital Skill Facilitator',
+    companyname: 'TinkerHub',
     skills: [],
-    startdate: 'February 2023',
-    enddate: 'May 2023',
+    startdate: 'April 2022',
+    enddate: 'September 2022',
     summaryPoints: [
-      'Created design strategies to promote the brand.',
-      'Created posters for social media.',
-      'Created customised design template for ID Cards and other materials.',
-      'Developed User Interface for mobile view of website'
+      'Offered learning support and guidance to students to provide opportunities for improvement.',
+      'Developed courses and resources for enhanced additional learning.',
+      'Curated and delivered a course on Google Slides.',
     ],
   },
   {
