@@ -9,7 +9,7 @@ type SkillProps = {
 
 function Skill({ name, iconUrl }: SkillProps) {
   return (
-    <div className='group relative flex cursor-pointer'>
+    <div className='group relative flex'>
       <motion.img
         className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32'
         initial={{ x: -200, opacity: 0 }}
