@@ -16,6 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Add the link tag for the favicon here */}
+        <link rel="icon" href="/prajwalicon.png" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
