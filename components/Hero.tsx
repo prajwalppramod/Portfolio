@@ -15,23 +15,23 @@ export default function Hero({ }: Props) {
             <BackgroundCircles />
             <img className='relative rounded-full h-32 w-32 mx-auto' src="\prajwal.png" alt="" />
             <div className='z-20'>
-                <h2 className='text-xl font-semibold uppercase text-gray-300  pb-2 tracking-[10px]'>Prajwal Pramod</h2>
-                <h1 className='text-5xl lg:text-5xl font-semibold px-10'>
+                <h2 className='text-xl font-semibold uppercase text-gray-300 mb-5 pb-2 tracking-[10px]'>Prajwal Pramod</h2>
+                <h1 className='text-5xl lg:text-5xl h-32 leading-snug md:mb-5 md:h-auto font-semibold px-10'>
                     <span>{text}</span>
                     <Cursor cursorColor="#F7AB0A" />
                 </h1>
                 <div className='pt-5'>
                     <Link href="#about">
-                        <button className='heroButton'>About</button>
+                        <button className='heroButton w-screen md:w-auto'>About</button>
                     </Link>
                     <Link href='#experience'>
-                        <button className='heroButton'>Experience</button>
+                        <button className='heroButton w-screen md:w-auto'>Experience</button>
                     </Link>
-                    <Link href='skills'>
-                        <button className='heroButton'>Skills</button>
+                    <Link href='#skills'>
+                        <button className='heroButton w-screen md:w-auto'>Skills</button>
                     </Link>
                     <Link href='#projects'>
-                        <button className='heroButton'>Projects</button>
+                        <button className='heroButton w-screen md:w-auto'>Projects</button>
                     </Link>
 
                 </div>

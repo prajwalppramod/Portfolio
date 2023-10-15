@@ -9,12 +9,12 @@ type SkillProps = {
 
 function Skill({ name, iconUrl }: SkillProps) {
   return (
-    <div className='group relative flex'>
+    <div className='relative flex'>
       <motion.img
-        className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32'
-        initial={{ x: -200, opacity: 0 }}
+        className='rounded-full border border-gray-500 object-cover w-16 h-16 md:w-20 md:h-20 xl:w-28 xl:h-28'
+        initial={{ y: 200, opacity: 0 }}
         transition={{ duration: 1.5 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
         src={iconUrl}
         alt={name}
       />

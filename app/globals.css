@@ -9,3 +9,28 @@
         @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#f7ab0a]/40 focus:text-[#f7ab0a]/40 hover:border-[#f7ab0a]/40
     }
 }
+
+/* In your CSS file (e.g., styles.css) */
+.container {
+    width: 100%;
+    max-width: 1440px; /* Equivalent to a 16:10 ratio for a 14-inch screen */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 5%; /* Add padding to the left and right sides for blank space */
+    background-color: rgb(36, 36, 36); /* Set the background color */
+  }
+  
+  /* Media query for screens larger than 15.6 inches */
+  @media (min-width: 15.6in) {
+    .container {
+      max-width: 100%; /* Use the full width for screens larger than 15.6 inches */
+      padding: 0; /* Remove padding for screens larger than 15.6 inches */
+      background-color: transparent; /* Set the background color to transparent */
+    }
+    @media (max-width:14) {
+        .container{
+            max-width: fit-content;
+        }
+    }
+  }
+  
+  
