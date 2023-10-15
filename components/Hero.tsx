@@ -13,7 +13,7 @@ export default function Hero({ }: Props) {
     return (
         <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden    '>
             <BackgroundCircles />
-            <img className='relative rounded-full h-32 w-32 mx-auto  ' src="\prajwal.png" alt="" />
+            <img className='relative rounded-full h-32 w-32 mx-auto' src="\prajwal.png" alt="" />
             <div className='z-20'>
                 <h2 className='text-xl font-semibold uppercase text-gray-300  pb-2 tracking-[10px]'>Prajwal Pramod</h2>
                 <h1 className='text-5xl lg:text-5xl font-semibold px-10'>
