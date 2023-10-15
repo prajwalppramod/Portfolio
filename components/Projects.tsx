@@ -22,6 +22,36 @@ function Projects({ }: Props) {
       description: 'An online integrated knowledge-sharing platform for Indian universities and colleges, focusing on student projects. This web app aims to create a centralized hub for educational institutions to showcase and share their students academic projects while providing plagiarism detection. This platform will encourage innovation, peer learning, and cross-institutional research within the higher education community.',
       link: 'https://github.com/prajwalppramod/Project-Orbit',
     },
+    {
+      id: 2,
+      image: '/whatsappchat.png',
+      title: 'Number to Whatsapp Chat',
+      description: 'Say goodbye to saving numbers just to send a WhatsApp message with this website. Connect seamlessly on WhatsApp without cluttering your contacts. Try it out and experience hassle-free messaging today!',
+      link: 'https://num-to-whatsapp-chat-prajwalppramod.vercel.app/',
+    },
+    {
+      id: 3,
+      image: '/weather.png',
+      title: 'Weather App',
+      description: 'Stay Informed and Delight Your Senses: Check the Weather App for Real-Time Temperature, Climate Updates, and Dynamic Backgrounds.',
+      link: 'https://weather-app-prajwalppramod.vercel.app/',
+    },
+    {
+      id: 4,
+      image: '/todo.png',
+      title: 'ToDo App',
+      description: 'Effortlessly Manage Your Tasks with Our Feature-Rich Todo App: Add, Delete, and Mark Tasks as Done with Ease. Streamline your daily tasks and achieve more',
+      link: 'https://to-do-react-type-script-git-main-prajwalppramod.vercel.app/',
+    },
+    {
+      id: 5,
+      image: '/bmw.png',
+      title: 'BMW Website',
+      description: 'Experience the Ultimate BMW Destination: Explore the Interactive Landing Page with CTA, Embedded Maps, Models, and More!',
+      link: 'https://bmw-website-prajwalppramod.vercel.app/',
+    },
+    
+    
     // Add more project objects as needed
   ];
 
