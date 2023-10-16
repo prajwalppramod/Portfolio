@@ -20,7 +20,7 @@ function ContactMe({ }: Props) {
     };
 
     return (
-        <div className='h-max top-12 relative items-center flex flex-col md:flex-row text-center md:text-left justify-evenly mx-auto max-w-7xl px-10'>
+        <div className='h-max mb-40 top-12 relative items-center flex flex-col md:flex-row text-center md:text-left justify-evenly mx-auto max-w-7xl px-10'>
             <div className='flex flex-col text-center'>
                 <h3 className='md:top-24 md:mb-7 mb-5 uppercase tracking-[13px] md:tracking-[20px] text-gray-400 text-base md:text-2xl'>
                     Contact Me
