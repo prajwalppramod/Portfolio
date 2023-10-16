@@ -128,7 +128,7 @@ function WorkExperience() {
       className='h-screen flex overflow-hidden flex-col text-left max-w-fullpx-10 justify-evenly mx-auto items-center'
     >
 
-      <h3 className='xl:-mb-14 xl:mt-12 mt-7 uppercase tracking-[15px] md:tracking-[20px] text-gray-400 text-xl md:text-2xl'>
+      <h3 className='xl:-mb-16 xl:mt-12 mt-16 -mb-14 uppercase tracking-[15px] md:tracking-[20px] text-gray-400 text-lg md:text-2xl'>
         Experience
       </h3>
 
