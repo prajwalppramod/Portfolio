@@ -20,14 +20,14 @@ function ContactMe({ }: Props) {
     };
 
     return (
-        <div className='h-screen relative items-center flex flex-col md:flex-row text-center md:text-left justify-evenly mx-auto max-w-7xl px-10'>
+        <div className='h-max top-12 relative items-center flex flex-col md:flex-row text-center md:text-left justify-evenly mx-auto max-w-7xl px-10'>
             <div className='flex flex-col text-center'>
                 <h3 className='md:top-24 md:mb-7 mb-5 uppercase tracking-[13px] md:tracking-[20px] text-gray-400 text-base md:text-2xl'>
                     Contact Me
                 </h3>
                 <div className='flex flex-col space-y-10'>
-                    <h4 className='text-[23px] md:text-4xl font-semibold md:w-auto text-center'>
-                        I have got just what you need. {""}
+                    <h4 className='text-[20px] pr-6 pl-6 md:text-4xl font-semibold md:w-auto text-center'>
+                        I have got just what you need.{" "}
                         <span className='decoration-[#f7ab0a]/50 underline'>Let&lsquo;s Talk</span>
                     </h4>
                     <div className='space-y-5 md:space-y-6'>
