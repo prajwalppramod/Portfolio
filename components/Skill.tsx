@@ -11,10 +11,11 @@ function Skill({ name, iconUrl }: SkillProps) {
   return (
     <div className='relative flex'>
       <motion.img
-        className='rounded-full border border-gray-500 object-cover w-16 h-16 md:w-20 md:h-20 xl:w-28 xl:h-28'
+        className='rounded-full border border-gray-500 object-cover w-16 h-16 md:w-20 md:h-20'
         initial={{ y: 200, opacity: 0 }}
         transition={{ duration: 1.5 }}
         whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
         src={iconUrl}
         alt={name}
       />

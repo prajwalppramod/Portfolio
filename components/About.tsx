@@ -7,7 +7,7 @@ export default function About({ }: Props) {
     return (
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1.5 }} className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
 
-            <motion.img initial={{ x: -200, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 1.2 }} className='-mb-16 mt-3 md:mb-0 flex-shrink-0 w-28 h-28 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]' src='\prajwal.png' />
+            <motion.img initial={{ x: -200, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 1.2 }} className='-mb-16 mt-3 md:mb-0 flex-shrink-0 w-0 h-0 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[400px]' src='\prajwal.png' />
             <div className='flex flex-col'>
                 <h3 className=' uppercase text-center mb-3 md:mb-10 tracking-[15px] md:tracking-[20px] text-gray-400 text-lg md:text-2xl'>About</h3>
                 <div className='md:space-y-10 space-y-3 px-0 md:px-10'>

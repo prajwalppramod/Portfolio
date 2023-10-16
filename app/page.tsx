@@ -12,32 +12,32 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className='container'>
-      <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 md:scrollbar xl:scrollbar-none md:scrollbar-track-gray-400/20 md:scrollbar-thumb-[#f7ab0a]/80'>
+      <div className='bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll overflow-x-hidden z-0 md:scrollbar xl:scrollbar-none md:scrollbar-track-gray-400/20 md:scrollbar-thumb-[#f7ab0a]/80'>
 
       <Header />
 
-      <section id='hero' className='snap-center'>
+      <section id='hero'>
         <Hero />
       </section>
 
-      <section id='about' className='snap-center'>
+      <section id='about' >
         <About />
       </section>
 
-      <section id='experience' className='snap-center'>
+      <section id='experience' >
         <WorkExperience />
       </section>
 
 
-      <section id='skills' className='snap-center'>
+      <section id='skills' >
         <Skills />
       </section>
 
-      <section id='projects' className='snap-center'>
+      <section id='projects' >
         <Projects />
       </section>
 
-      <section id='contact' className='snap-center'>
+      <section id='contact' >
         <ContactMe />
       </section>
 

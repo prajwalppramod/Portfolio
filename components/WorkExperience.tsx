@@ -125,14 +125,14 @@ function WorkExperience() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className='h-screen flex overflow-hidden flex-col text-left max-w-fullpx-10 justify-evenly mx-auto items-center'
+      className='h-max flex overflow-hidden flex-col text-left max-w-fullpx-10 justify-evenly mx-auto items-center'
     >
 
-      <h3 className='xl:-mb-16 xl:mt-12 mt-16 -mb-14 uppercase tracking-[15px] md:tracking-[20px] text-gray-400 text-lg md:text-2xl'>
+      <h3 className='xl:mt-12 mt-16 uppercase tracking-[15px] md:tracking-[20px] text-gray-400 text-lg md:text-2xl'>
         Experience
       </h3>
 
-      <div className='w-[350px] md:w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 '>
+      <div className='w-[350px]  md:w-screen flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 '>
         {experienceData.map((experience) => (
           <ExperienceCard key={experience.id} experience={experience} />
         ))}

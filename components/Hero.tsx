@@ -11,12 +11,12 @@ export default function Hero({ }: Props) {
         words: ["Front-end dev", "UI/UX Designer", "Graphic Designer"], loop: true, delaySpeed: 2000
     })
     return (
-        <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden    '>
+        <div className='h-4/6 md:h-5/6 flex flex-col space-y-8 items-center justify-center text-center overflow-hidden    '>
             <BackgroundCircles />
             <img className='relative rounded-full h-32 w-32 mx-auto' src="\prajwal.png" alt="" />
             <div className='z-20'>
-                <h2 className='text-xl font-semibold uppercase text-gray-300 mb-5 pb-2 tracking-[10px]'>Prajwal Pramod</h2>
-                <h1 className='text-5xl lg:text-5xl h-32 leading-snug md:mb-5 md:h-auto font-semibold px-10'>
+                <h2 className='text-xl font-semibold uppercase text-gray-300 mb-5 pb-2 tracking-[4px] md:tracking-[10px]'>Prajwal Pramod</h2>
+                <h1 className='text-[30px] lg:text-5xl h-max leading-snug md:mb-5 md:h-auto font-semibold px-10'>
                     <span>{text}</span>
                     <Cursor cursorColor="#F7AB0A" />
                 </h1>
